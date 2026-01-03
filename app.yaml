@@ -1,0 +1,18 @@
+name: codellama-CodeLlama-7b-Python-hf
+type: gradio-space
+sdk: gradio
+
+metadata:
+  space_id: Chris4K/codellama-CodeLlama-7b-Python-hf
+  original_url: https://huggingface.co/spaces/Chris4K/codellama-CodeLlama-7b-Python-hf
+
+deploy:
+  targets:
+    - public-repo
+    - huggingface
+
+build:
+  command: bash build.sh
+
+test:
+  command: echo "Tests not yet implemented"
